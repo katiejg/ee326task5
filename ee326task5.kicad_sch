@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "7fbbe4b6-3469-4af0-b370-1f4452f7132d")
 	(paper "A4")
+	(title_block
+		(title "EE326 Webcam Board")
+		(date "2026-02-15")
+		(rev "1")
+		(company "Northwestern University")
+	)
 	(lib_symbols
 		(symbol "2-1734592-4:2-1734592-4"
 			(pin_names
@@ -1139,13 +1145,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "IC MCU 32BIT 512KB FLASH 64LQFP"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -1160,6 +1165,16 @@
 				)
 			)
 			(property "DIGI-KEY_PURCHASE_URL" "https://www.digikey.com/product-detail/en/microchip-technology/ATSAM4S8BA-AU/ATSAM4S8BA-AU-ND/3593645?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" "IC MCU 32BIT 512KB FLASH 64LQFP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4509,12 +4524,6 @@
 		(uuid "1aec01b3-2955-4ed9-9c69-903bf096723c")
 	)
 	(junction
-		(at 163.83 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dd6d539-c670-44ec-ab1d-57599e96bb6b")
-	)
-	(junction
 		(at 73.66 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4537,12 +4546,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5151803e-fed9-471d-bfba-813277427f33")
-	)
-	(junction
-		(at 246.38 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c587ec9-b25e-4d0f-b447-015b843eb55a")
 	)
 	(junction
 		(at 67.31 143.51)
@@ -4674,16 +4677,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 57.15) (xy 246.38 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b5a6088-17d4-4c80-8434-87be2301b77c")
-	)
-	(wire
-		(pts
 			(xy 241.3 114.3) (xy 248.92 114.3)
 		)
 		(stroke
@@ -4701,16 +4694,6 @@
 			(type default)
 		)
 		(uuid "1c5e7504-f313-4f19-b858-31c91cd4c3bd")
-	)
-	(wire
-		(pts
-			(xy 246.38 57.15) (xy 246.38 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2007adb8-8adf-4f8a-8fbb-e010d3aa4ca7")
 	)
 	(wire
 		(pts
@@ -5204,16 +5187,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 24.13) (xy 163.83 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81926fe5-c329-45bb-b73d-8815def0747a")
-	)
-	(wire
-		(pts
 			(xy 241.3 132.08) (xy 248.92 132.08)
 		)
 		(stroke
@@ -5474,7 +5447,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 54.61) (xy 252.73 54.61)
+			(xy 242.57 54.61) (xy 252.73 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5574,6 +5547,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 19.05) (xy 163.83 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdafd385-f97a-4f46-8b33-9f03fab8e6ab")
+	)
+	(wire
+		(pts
 			(xy 132.08 170.18) (xy 137.16 170.18)
 		)
 		(stroke
@@ -5601,16 +5584,6 @@
 			(type default)
 		)
 		(uuid "cf09d425-ff48-410d-abf8-9c6423f9e527")
-	)
-	(wire
-		(pts
-			(xy 242.57 54.61) (xy 246.38 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf7c983c-40e9-40b8-a06f-ebdde9ca98e6")
 	)
 	(wire
 		(pts
@@ -5674,6 +5647,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 71.12) (xy 90.17 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e3e285-c35b-4ecb-9551-9af67e1e446d")
+	)
+	(wire
+		(pts
 			(xy 13.97 86.36) (xy 24.13 86.36)
 		)
 		(stroke
@@ -5691,6 +5674,16 @@
 			(type default)
 		)
 		(uuid "d5c11b55-baee-4181-b013-b55e38e42275")
+	)
+	(wire
+		(pts
+			(xy 100.33 73.66) (xy 90.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7772e15-b0d5-40c6-934b-8b7ac55c1ae8")
 	)
 	(wire
 		(pts
@@ -5801,16 +5794,6 @@
 			(type default)
 		)
 		(uuid "f46ef93c-89ce-4219-a8ed-19be9bbac0d6")
-	)
-	(wire
-		(pts
-			(xy 163.83 22.86) (xy 163.83 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f48549b3-2ddd-40b2-bc50-615b20c338a0")
 	)
 	(wire
 		(pts
@@ -6532,6 +6515,16 @@
 		)
 		(uuid "93f67c10-954d-4ebe-893d-ebd0fc7db6e0")
 	)
+	(label "MCU_TX"
+		(at 100.33 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "942c9200-6ed3-4fed-b775-b7515ccc8749")
+	)
 	(label "D6"
 		(at 95.25 63.5 180)
 		(effects
@@ -6571,6 +6564,16 @@
 			(justify right bottom)
 		)
 		(uuid "a48f3f2e-6a16-4425-b061-b4ababa4fa54")
+	)
+	(label "MCU_RX"
+		(at 100.33 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5205512-3767-42cd-8daf-db414df544ed")
 	)
 	(label "VDD3V0"
 		(at 31.75 135.89 180)
@@ -6897,7 +6900,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 76.2 32.0548 0)
 			(effects
 				(font
@@ -6964,7 +6967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 76.2 29.5148 0)
 			(effects
 				(font
@@ -7032,7 +7035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 102.87 35.56 0)
 			(effects
 				(font
@@ -7169,7 +7172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 133.0452 26.67 0)
 			(effects
 				(font
@@ -7304,7 +7307,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 76.2 39.6748 0)
 			(effects
 				(font
@@ -7372,7 +7375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ATSAM4S8BA-AU:QFP50P1200X1200X160-64N"
+		(property "Footprint" "ATSAM4S8BA_AU:QFP50P1200X1200X160-64N"
 			(at 57.15 66.04 0)
 			(effects
 				(font
@@ -7822,7 +7825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 141.732 22.86 90)
 			(effects
 				(font
@@ -8098,7 +8101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 100.33 62.738 90)
 			(effects
 				(font
@@ -8303,7 +8306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 29.972 142.24 90)
 			(effects
 				(font
@@ -8621,7 +8624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2-1734592-4:TE_2-1734592-4"
+		(property "Footprint" "2_1734592_4:TE_2-1734592-4"
 			(at 261.62 119.38 0)
 			(effects
 				(font
@@ -9146,7 +9149,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 66.3448 146.05 0)
 			(effects
 				(font
@@ -9214,7 +9217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ABM7-12.000MHZ-D2Y-T:XTAL_ABM7-12.000MHZ-D2Y-T"
+		(property "Footprint" "ABM7_12_000MHZ_D2Y_T:XTAL_ABM7-12.000MHZ-D2Y-T"
 			(at 73.66 143.51 0)
 			(effects
 				(font
@@ -9876,7 +9879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 100.33 70.358 90)
 			(effects
 				(font
@@ -9946,7 +9949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 253.6952 62.23 0)
 			(effects
 				(font
@@ -10614,7 +10617,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 79.0448 146.05 0)
 			(effects
 				(font
@@ -10751,7 +10754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 37.7952 181.61 0)
 			(effects
 				(font
@@ -10819,7 +10822,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 76.2 37.1348 0)
 			(effects
 				(font
@@ -10889,7 +10892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 106.172 39.37 90)
 			(effects
 				(font
@@ -11093,7 +11096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 108.9152 50.8 0)
 			(effects
 				(font
@@ -11762,7 +11765,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 76.2 42.2148 0)
 			(effects
 				(font
@@ -12178,7 +12181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 207.9752 62.23 0)
 			(effects
 				(font
@@ -12248,7 +12251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 119.0752 43.18 0)
 			(effects
 				(font
