@@ -7519,13 +7519,13 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 72.39 40.64 90)
+		(at 72.39 40.64 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "12521fb4-b316-4867-aad3-55c62bbba666")
 		(property "Reference" "C10"
 			(at 72.39 33.02 90)
@@ -7544,7 +7544,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 76.2 39.6748 0)
+			(at 68.58 39.6748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,7 +8667,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "ESP32-WROOM-32"
