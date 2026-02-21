@@ -1,4 +1,4 @@
-27121144979175530
+27122916994864725
 694106106102
 694106106102
 
@@ -71518,6 +71518,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+ESP32-WROOM-32E
+2.4 GHz Wi­-Fi and Bluetooth 5 (LE) module: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
+Bluetooth WiFi Wi-Fi ESP32 WROOM Xtensa LX6
+0
+47
+39
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

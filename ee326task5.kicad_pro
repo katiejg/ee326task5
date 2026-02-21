@@ -61,103 +61,259 @@
       "drc_exclusions": [
         [
           "courtyards_overlap|45679590|21501706|151b0fa8-3874-4821-95a8-84927ab0e76f|ebc73133-2dd9-4196-825b-51e03e3839b8",
-          "2X3 HEADER REPRESENTED BY 1X3 HEADERS"
+          "2x3 header made of 1x3 headers"
         ],
         [
           "courtyards_overlap|48842047|32429666|cc051f91-e1af-4a6b-a8bd-d2ff569088dd|fd492523-e476-4639-afbc-21f1ebabafd6",
-          "2X3 HEADER REPRESENTED BY 1X3 HEADERS"
+          "2x3 header made of 1x3 headers"
+        ],
+        [
+          "silk_edge_clearance|29000000|59400000|f68a5be3-cd89-4df4-91ab-de30f25a54b8|05041271-092c-41c8-a172-89a369180147",
+          "Jack barrel hanging off board edge is okay"
+        ],
+        [
+          "silk_edge_clearance|29000000|68600000|f68a5be3-cd89-4df4-91ab-de30f25a54b8|51b6cec0-1b78-4354-a3c2-b4474779c9e8",
+          "Jack barrel hanging off board edge is okay"
+        ],
+        [
+          "silk_edge_clearance|79000000|32071774|f68a5be3-cd89-4df4-91ab-de30f25a54b8|b0fcbc85-d3f7-442b-8f3c-126e56d37ddb",
+          "ESP32 antenna may hang off edge of board"
+        ],
+        [
+          "silk_overlap|31643388|33052382|04fa1495-52b0-4e91-b416-8cfbc266c9de|5d737cce-de24-4f50-9a5c-25318a584a56",
+          ""
+        ],
+        [
+          "silk_overlap|31643388|40052382|9cae674a-f2f0-4880-830b-d9a68373bb22|7c920027-ce46-4c36-abd8-7a14dd110fa7",
+          "Button silkscreen is not important."
+        ],
+        [
+          "silk_overlap|34158095|45750000|64df1bad-818f-48b4-95cc-ac525eaa486b|9919df91-14bb-4288-b1e8-4b9d10d3901b",
+          "2x3 header made of 1x3 headers."
+        ],
+        [
+          "silk_overlap|36356612|34947618|04fa1495-52b0-4e91-b416-8cfbc266c9de|d75a8f03-34ef-4852-a9b4-1e2275c4382f",
+          "Button leg silkscreen does not matter."
+        ],
+        [
+          "silk_overlap|36356612|41947618|9cae674a-f2f0-4880-830b-d9a68373bb22|82fd43d0-af6b-4d76-a974-b6c745b4acce",
+          ""
+        ],
+        [
+          "silk_overlap|45304762|46102438|58da3529-8e1f-41c4-b0f3-60331d5d9eae|21816de2-cc46-4fb8-b897-787d450e8ac6",
+          ""
+        ],
+        [
+          "silk_overlap|45946453|24536706|3577bc51-ca47-4c3f-9a95-9461427da8b5|85196039-71ec-485e-9ac3-79838086664c",
+          "2x3 header made of 1x3 headers."
+        ],
+        [
+          "silk_overlap|45946453|24536706|3577bc51-ca47-4c3f-9a95-9461427da8b5|f50a0b4e-840f-44eb-bb50-b44cc3b3f902",
+          "2x3 header made of 1x3 headers."
+        ],
+        [
+          "silk_overlap|45946453|24536706|f332036c-f3df-4a4f-a2f4-13da8eaed21b|f50a0b4e-840f-44eb-bb50-b44cc3b3f902",
+          "2x3 header made of 1x3 headers."
+        ],
+        [
+          "silk_overlap|45946453|29726706|67a9980e-e1b8-4560-a240-a2d5591af1fe|f50a0b4e-840f-44eb-bb50-b44cc3b3f902",
+          "2x3 header made of 1x3 headers."
+        ],
+        [
+          "silk_overlap|46000000|49930000|85ed6913-35a8-4853-a424-14e077d81064|808e325b-dbe2-4c61-9182-ccfebf7207ca",
+          ""
+        ],
+        [
+          "silk_overlap|46000000|58070000|ed46bc61-60a1-4e26-b4f0-61eaf09abbfc|cf6a7343-c9bd-42f0-abe8-6ddfa358947d",
+          ""
+        ],
+        [
+          "silk_overlap|46061841|24530000|85196039-71ec-485e-9ac3-79838086664c|f332036c-f3df-4a4f-a2f4-13da8eaed21b",
+          "2x3 header made of 1x3 headers."
+        ],
+        [
+          "silk_overlap|46061841|29720000|54176e3f-1435-44ff-a748-5f39bbd6086a|67a9980e-e1b8-4560-a240-a2d5591af1fe",
+          "2x3 header made of 1x3 headers."
+        ],
+        [
+          "silk_overlap|46061841|29720000|54176e3f-1435-44ff-a748-5f39bbd6086a|f332036c-f3df-4a4f-a2f4-13da8eaed21b",
+          "2x3 header made of 1x3 headers."
+        ],
+        [
+          "silk_overlap|46930000|49000000|d1af773b-e9b3-446b-b515-d3d0c46f70ef|ecc893b9-b4f5-4936-a30b-382e6ed34aeb",
+          ""
+        ],
+        [
+          "silk_overlap|46930000|59000000|9872ea61-b5f3-45db-ba36-8e346ce67a72|0f624725-7d64-4cca-a7fd-7353fde5ad31",
+          ""
+        ],
+        [
+          "silk_overlap|49227047|35464666|1a938258-81c9-430e-b7eb-2e6c09684120|73452954-22b3-4e45-9526-ea4fe34325bb",
+          "2x3  header made from 1x3 headers"
+        ],
+        [
+          "silk_overlap|49227047|35464666|1a938258-81c9-430e-b7eb-2e6c09684120|dc992008-a181-4463-9d87-fe3761a4f8da",
+          "2x3 header made of 1x3 headers."
+        ],
+        [
+          "silk_overlap|49227047|40654666|1a938258-81c9-430e-b7eb-2e6c09684120|57c77765-f710-48c8-b1e4-e8c58a6b509f",
+          "2x3 header made of 1x3 headers."
+        ],
+        [
+          "silk_overlap|49227047|40654666|47f0f6d8-c065-42f9-b184-5cb836848ee3|57c77765-f710-48c8-b1e4-e8c58a6b509f",
+          "2x3 header made of 1x3 headers."
+        ],
+        [
+          "silk_overlap|49297356|35464666|73452954-22b3-4e45-9526-ea4fe34325bb|e2239c2e-9aa0-4174-9340-e4fc219d8cbe",
+          "2x3 header made of 1x3 headers."
+        ],
+        [
+          "silk_overlap|49297356|35464666|dc992008-a181-4463-9d87-fe3761a4f8da|e2239c2e-9aa0-4174-9340-e4fc219d8cbe",
+          "2x3 header made of 1x3 headers."
+        ],
+        [
+          "silk_overlap|49297356|40654666|47f0f6d8-c065-42f9-b184-5cb836848ee3|dc992008-a181-4463-9d87-fe3761a4f8da",
+          "2x3 header made of 1x3 headers."
+        ],
+        [
+          "silk_overlap|55070000|49000000|c8365b5e-75d6-4615-88f2-0dfc28be1cb0|265cc427-6a49-4997-8ac0-4ea0de84dd2d",
+          ""
+        ],
+        [
+          "silk_overlap|55070000|59000000|112234e4-05ed-4ed0-a63e-6ed7a8c20bb6|34577827-a4de-43a8-9383-78a9a7fc5855",
+          ""
+        ],
+        [
+          "silk_overlap|56000000|49930000|ec5074e3-d3bd-4687-bf2e-82dee69100c9|ce6a7a9b-c1eb-4225-a509-bd7c6f523557",
+          ""
+        ],
+        [
+          "silk_overlap|56000000|58070000|647cb235-9d17-46df-a5a9-09754314c212|a283fa64-3d6f-47a7-9aee-e8aa261437ab",
+          ""
+        ],
+        [
+          "silk_overlap|70643388|26052382|af91f340-b8d2-4c0d-918d-0abdfd063ac2|cf8e34be-ee7b-4cda-a6ac-b716e5bbab19",
+          "Button leg silkscreen is not important."
+        ],
+        [
+          "silk_overlap|70643388|54052382|ee56b806-d44e-417a-8530-36f2871158be|437d8b72-a361-4033-9401-685eae4dd6ba",
+          ""
+        ],
+        [
+          "silk_overlap|75356612|27947618|af91f340-b8d2-4c0d-918d-0abdfd063ac2|6fcfc647-def2-4045-b9ad-48eeb2bae0f0",
+          ""
         ],
         [
           "solder_mask_bridge|46400000|66837500|7c2c56e3-0151-483c-bc3e-a7bf3d10c747|40deddf8-1883-41bf-b449-9ab051762938",
-          "CAMERA CONNECTOR FOOTPRINT ISSUE THAT WE DISCUSSED IN CLASS"
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|46900000|66837500|40deddf8-1883-41bf-b449-9ab051762938|08d7ed51-7588-4108-99d4-022fc7ef042d",
-          "CAMERA CONNECTOR FOOTPRINT ISSUE THAT WE DISCUSSED IN CLASS"
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|47400000|66837500|08d7ed51-7588-4108-99d4-022fc7ef042d|3ee72ac8-e971-438f-b8a6-612032f3df2d",
-          "CAMERA CONNECTOR FOOTPRINT ISSUE THAT WE DISCUSSED IN CLASS"
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|47900000|66837500|3ee72ac8-e971-438f-b8a6-612032f3df2d|76c6bbea-2678-46ea-938d-46b270e8be09",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|48400000|66837500|76c6bbea-2678-46ea-938d-46b270e8be09|8ee768ec-dc83-48cc-bc25-d035b59aabe9",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|48900000|66837500|8ee768ec-dc83-48cc-bc25-d035b59aabe9|c2e5404a-1807-4c0f-a78d-4f4bf4bddb9c",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|49400000|66837500|c2e5404a-1807-4c0f-a78d-4f4bf4bddb9c|37aff95c-2af1-4d2b-aef7-0f23f432ddbe",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|49900000|66837500|37aff95c-2af1-4d2b-aef7-0f23f432ddbe|4ffce49f-c371-4d1f-826f-c514426df8ff",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|50400000|66837500|4ffce49f-c371-4d1f-826f-c514426df8ff|02ee29f0-a1a9-4af0-92e8-2e7a80d8ae58",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|50900000|66837500|02ee29f0-a1a9-4af0-92e8-2e7a80d8ae58|effb4911-2260-4c3e-afaa-37eef621d291",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|51400000|66837500|effb4911-2260-4c3e-afaa-37eef621d291|a833c1e5-c25c-41ba-8151-ef4e73e96c75",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|51900000|66837500|a833c1e5-c25c-41ba-8151-ef4e73e96c75|fb53f6ca-a163-40db-9b9e-36b126d4b364",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|52400000|66837500|fb53f6ca-a163-40db-9b9e-36b126d4b364|dc7fa509-165b-4d54-9167-46da2aa727c3",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|52900000|66837500|dc7fa509-165b-4d54-9167-46da2aa727c3|4d8430c7-ad2d-44a4-b63f-3fb19068c841",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|53400000|66837500|4d8430c7-ad2d-44a4-b63f-3fb19068c841|caab4b09-ef61-4eba-9fd8-1bc4aebe9fb7",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|53900000|66837500|caab4b09-ef61-4eba-9fd8-1bc4aebe9fb7|cbb183f2-f2b2-4465-adc2-ed017cffb2b1",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|54400000|66837500|cbb183f2-f2b2-4465-adc2-ed017cffb2b1|039aefe4-8127-4aae-b6e5-287b0da2a8d7",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|54900000|66837500|039aefe4-8127-4aae-b6e5-287b0da2a8d7|53675038-5282-4128-8433-6c657548162e",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|55400000|66837500|53675038-5282-4128-8433-6c657548162e|e5b9b30b-4539-42f3-9537-e0719646b269",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|55900000|66837500|e5b9b30b-4539-42f3-9537-e0719646b269|42e1bb98-6629-47b3-ae0b-a69155c57846",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|56400000|66837500|42e1bb98-6629-47b3-ae0b-a69155c57846|1ad590b5-bff1-40ef-bf15-e96b33fa643e",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|56900000|66837500|1ad590b5-bff1-40ef-bf15-e96b33fa643e|89f23078-2cf0-4de0-91a4-16a6e3950b4c",
-          ""
+          "Issue with camera connector footprint as described in class"
         ],
         [
           "solder_mask_bridge|57400000|66837500|89f23078-2cf0-4de0-91a4-16a6e3950b4c|3811c705-cc33-4c5e-b8d8-3ea5674e5987",
-          ""
+          "Issue with camera connector footprint as described in class"
+        ],
+        [
+          "unconnected_items|47099674|45402832|F.Cu|4|e492d139-3f1f-4058-b9a8-74151fada4e0|dda38f33-76aa-45a9-9b70-fd6e46beefd8",
+          "These capacitors are connected to the MCU. "
+        ],
+        [
+          "unconnected_items|49250000|48330000|F.Cu|4|a5411177-9a03-46a2-891d-68142bc57e4f|0cb03a6d-48f6-4b95-9382-68ed30c8e6ce",
+          "These capacitors are connected to the 1.2V from the MCU. No need to connect to each other."
+        ],
+        [
+          "unconnected_items|51250000|48330000|F.Cu|4|458798c4-7f35-40da-9947-96f182fbb17a|73f8bfb3-a0e4-4696-8916-26c3f25acc0f",
+          "These are 1.2V outputs from the MCU. No need to connect to each other."
+        ],
+        [
+          "unconnected_items|60496774|57595139|F.Cu|4|5f043cd2-d37d-404a-8297-9bc07375e987|aa82ca13-ac4b-41c8-ba7d-318b2733e4e7",
+          "These are connected to 1.2V outputs on the MCU. No need to connect to each other."
+        ],
+        [
+          "unconnected_items|68850000|38581774|F.Cu|4|aede5412-78af-45f4-a107-adfe934ebd30|da1f529a-3ecf-4ce5-9eec-4c9368bc5c4c",
+          "ESP32 Ground Pads Under Board do not need to be connected"
         ]
       ],
       "meta": {
@@ -202,7 +358,7 @@
         "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -618,7 +774,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../task5_1a2/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
